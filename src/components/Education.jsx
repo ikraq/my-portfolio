@@ -14,7 +14,7 @@ const Education = () => {
     {
       degree: "Diploma in Computer Science And Mathematics",
       school: "Universiti Teknologi Mara, Jasin, Melaka",
-      period: "Oct 2020 – Mar 2023",
+      period: "Oct 2018 – Mar 2021",
       gpa: "3.07",
       icon: <GraduationCap size={24} />
     }

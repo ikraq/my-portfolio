@@ -20,7 +20,7 @@ const Experience = () => {
       title: "Internship",
       company: "Pusat Kerjaya dan Alumni (PKKA), UTHM",
       location: "Batu Pahat, Johor",
-      period: "Mar 2021 – Aug 2021",
+      period: "Sept 2020 – Nov 2020",
       description: [
         "Managed and organized database records for student and alumni profiles, ensuring high data accuracy and streamlined information retrieval.",
         "Supported the coordination of career development programs, alumni networking events, and university career fairs.",
