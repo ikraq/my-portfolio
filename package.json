@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "push": "git add . && git commit -m \"Auto-update from user\" && git push"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",
