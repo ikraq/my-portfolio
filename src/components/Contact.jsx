@@ -75,6 +75,16 @@ const Contact = () => {
                   <p>Kluang, Johor, Malaysia</p>
                 </div>
               </div>
+
+              <div className="info-item card">
+                <div className="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7.17A5.3 5.3 0 0 0 19 4.5a5.3 5.3 0 0 0-.1-3.5s-1.4-.4-4.5 2.5a14.2 14.2 0 0 0-8 0C3.3 1 1.9 1.4 1.9 1.4A5.3 5.3 0 0 0 1.8 4.9a5.3 5.3 0 0 0-1.5 3.3c0 5.77 3.35 6.79 6.5 7.17A4.8 4.8 0 0 0 5.8 18v4"></path></svg>
+                </div>
+                <div>
+                  <h4>GitHub</h4>
+                  <p><a href="https://github.com/ikraq" target="_blank" rel="noreferrer" style={{color: 'inherit', textDecoration: 'underline'}}>github.com/ikraq</a></p>
+                </div>
+              </div>
             </div>
           </div>
           
