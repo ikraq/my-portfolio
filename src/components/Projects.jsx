@@ -10,7 +10,7 @@ const Projects = () => {
       description: "A comprehensive web-based academic management system to digitalize student performance monitoring, attendance tracking, Islamic practical assessments, and parent communication. Features role-based access control (RLS), real-time notifications, and data analytics modules for generating automated ranking and performance reports.",
       tags: ["React", "TypeScript", "Tailwind CSS", "PostgreSQL", "Data Analytics"],
       links: {
-        github: "#",
+        github: "https://github.com/ikraq/sekolah-agama-tengah-portal",
         live: "#"
       }
     }
