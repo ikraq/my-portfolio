@@ -19,16 +19,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSuccess(true);
-      setFormData({ name: '', email: '', subject: 'Internship Opportunity', message: '' });
-      
-      setTimeout(() => setIsSuccess(false), 5000);
-    }, 1500);
+    const mailtoLink = `mailto:iikraqizhar13@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
+    window.open(mailtoLink, '_blank');
+    
+    setFormData({ name: '', email: '', subject: 'Internship Opportunity', message: '' });
   };
 
   return (
