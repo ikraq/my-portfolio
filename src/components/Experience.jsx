@@ -5,18 +5,6 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      title: "Night Market Vendor",
-      company: "Self-Employed",
-      location: "Kluang, Johor",
-      period: "2018 – Present",
-      description: [
-        "Operated a solo retail stall at local night markets, independently managing everything from stock transportation and stall setup to packing up.",
-        "Handled all cash and digital transactions directly with customers, ensuring accurate math and balancing daily earnings.",
-        "Managed inventory and purchasing, tracking fast-selling items and buying stock ahead of time.",
-        "Served a high volume of customers face-to-face in a fast-paced environment, keeping service quick and friendly."
-      ]
-    },
-    {
       title: "Internship",
       company: "Pusat Kerjaya dan Alumni (PKKA), UTHM",
       location: "Batu Pahat, Johor",
